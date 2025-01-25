@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Karthikkv1/to-do-app.git'
+                git 'https://github.com/sathwikm1610/to-do-app.git'
             }
         }
         stage('Build Docker Image') {
